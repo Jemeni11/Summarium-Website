@@ -1,0 +1,32 @@
+.bodyContainer {
+  width: 100%;
+  min-height: calc(100vh - 4rem);
+  padding-inline: 1.25rem;
+  background-color: var(--secondary_color);
+  color: var(--primary_color);
+  transition: all .5s;
+  /* text-align: center; */
+  /* border: 12px solid var(--neutral_color); */
+  /* margin: auto; */
+  /* vertical-align: text-bottom; */
+}
+
+.bodyHeroSection {
+  display: flex;
+  gap: 4%;
+  height: calc(100vh - 50%);
+}
+
+.bodyHeroSection > div {
+  flex: 1;
+  width: 48%;
+  display: flex;
+}
+
+.bodyHeroSectionTitleContainer {
+  place-items: center;
+}
+
+.bodyDiscordComponentContainer {
+  height: inherit;
+}

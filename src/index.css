@@ -1,0 +1,34 @@
+:root {
+  --background: white;
+  --text-primary: black;
+  --text-secondary: royalblue;
+  --accent: purple;
+  --primary_color: #e41c24;
+  --secondary_color: #f17983;
+  --neutral_color: #fae0e0;
+}
+
+[data-theme="dark"] {
+  --background: #121212;
+  --text-primary: white;
+  --text-secondary: grey;
+  --accent: darkred;
+  --primary_color: #f5a8ab;
+  --secondary_color: #f17983;
+  --neutral_color: #fae0e0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--primary_color);
+  font-size: 1rem;
+}
+
+button:hover {
+  cursor: pointer;
+}

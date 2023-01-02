@@ -1,0 +1,35 @@
+/* * {outline: 1px dotted saddlebrown;} */
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0.625rem 1.25rem;
+  height: 4rem;
+  background-color: var(--background);
+  color: var(--text-primary);
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+.headerLogoContainer,
+.headerButtonsContainer {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.headerLogoContainer img {
+  width: 25%;
+  height: 120%;
+}
+
+.headerLogoContainer p {
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.headerButtonsContainer button {
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  border: none;
+}
+
