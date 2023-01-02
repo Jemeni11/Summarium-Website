@@ -33,3 +33,14 @@
   border: none;
 }
 
+.headerButtonsContainer button:last-child {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  max-height: 2.875rem;
+}
+
+.headerButtonsContainer button:last-child img {
+  width: 1.5rem;
+  height: 1.5rem;
+}

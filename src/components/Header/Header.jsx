@@ -1,6 +1,8 @@
 import React from "react";
 import classes from "./Header.module.css";
 import Logo from "../../assets/logo.jpg";
+import Sun from "../../assets/summer.svg";
+import Moon from "../../assets/moon.svg";
 
 const Header = (props) => {
   return (
@@ -12,7 +14,8 @@ const Header = (props) => {
       <div className={classes.headerButtonsContainer}>
         <button>Add to your discord server !</button>
         <button onClick={props.themeHandler}>
-          Switch to {props.theme === "light" ? "Dark" : "Light"} Theme
+          <img src={props.theme === "light" ? Moon : Sun} alt="theme" />
+          <p>{props.theme === "light" ? "Dark" : "Light"} Theme</p>
         </button>
       </div>
     </div>
