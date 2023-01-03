@@ -35,7 +35,8 @@ export default function DiscordMessageCustomComponent() {
           <DiscordEmbedFields slot="fields">
             <DiscordEmbedField fieldTitle="Warnings" inline="true">
               This field contains warnings for the type of content in a story.
-              An example is <code>Strong Language</code>
+              Warnings like <code>Strong Language</code> or <code>Violence</code>.
+              Summarium <strong>does not</strong> create these warnings.
             </DiscordEmbedField>
             <DiscordEmbedField fieldTitle="Status" inline="true">
               This field contains the publishing status of the story/quest. That
@@ -45,15 +46,13 @@ export default function DiscordMessageCustomComponent() {
             <DiscordEmbedField fieldTitle="Characters">
               A comma seperated list of characters in a story. If there are more
               than 7 characters in a story, Summarium stops at the 7th character
-              and appends the number of characters left.
-              <br />
-              If there are no characters available, Summarium responds with{" "}
-              <code>No Characters</code>.
+              and appends the number of characters left. If there are no characters 
+              available, Summarium responds with{" "} <code>No Characters</code>.
             </DiscordEmbedField>
             <DiscordEmbedField fieldTitle="Stats">
               This field contains multiple statistics about a story/quest.
               <br />
-              <code>40 Chapters • 4,535 Words • Updated on 2023-01-01 • Published on 2022-03-30</code>
+              <code>Chapters • Words • Updated on • Published on </code>
             </DiscordEmbedField>
           </DiscordEmbedFields>
           <span slot="footer">
